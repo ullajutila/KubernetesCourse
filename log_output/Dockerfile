@@ -8,4 +8,4 @@ WORKDIR /app
 COPY logoutput.py .
 
 # Set default command
-CMD ["python", "logoutput.py"]
+CMD ["python", "-u", "logoutput.py"]
