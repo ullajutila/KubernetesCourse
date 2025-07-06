@@ -9,6 +9,8 @@ WORKDIR /app
 
 # Copy the Python script
 COPY server.py .
+# Copy html files
+COPY *.html .
 
 # Expose the port (optional, for documentation)
 EXPOSE 8000
